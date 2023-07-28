@@ -7,7 +7,6 @@ const ProfilePage = () => {
 
   return (
     <div className="GStyle m-2">
-      Profile, crear funcionalidad para dos botones, como componente, funcion??
       <h1>Profile</h1>
       <button
         className="btnStyle btn btn-primary m-2"
