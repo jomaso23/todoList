@@ -1,0 +1,93 @@
+.App,
+.GStyle {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+.App-container {
+  width: 30%;
+  height: 70vh;
+}
+.card-footer {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.card-header {
+  display: flex;
+  width: 100%;
+  height: 10%;
+}
+.GStyle3 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 5em;
+}
+.GStyle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0.1em;
+  flex-direction: column;
+  justify-content: center;
+}
+.btnStyle {
+  display: flex;
+  width: 4em;
+  height: 2em;
+  font-size: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.btnStyle2 {
+  display: flex;
+  height: 1.5em;
+  font-size: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.btnStyleLocal {
+  margin-right: 5em;
+}
+
+// .cardGStyle{
+
+// }
+
+.App-header,
+.App-footer {
+  background-color: #444c5c;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* O el ancho deseado para el div A */
+  /* Color de fondo para visualizarlo mejor */
+  padding: 10px;
+}
+.App-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* O el ancho deseado para el div A */
+  /* Color de fondo para visualizarlo mejor */
+  padding: 10px;
+}
