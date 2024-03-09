@@ -31,7 +31,7 @@ const TaskCard = () => {
     /*esta funcion me remueve una tarea seleccionando el icono de TACHO DE BASURA, esta funcion se llama
         desde TASK*/
   };
-  const Cardstyle = {};
+  //const Cardstyle = {};
   return (
     <div>
       <div className="card  GStyle2 " style={{ height: "70vh" }}>
