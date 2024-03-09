@@ -2,6 +2,7 @@
   "name": "todo3",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jomaso23.github.io/todoList/build",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
